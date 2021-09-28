@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BudgetPlanner.Data.Model
+namespace BudgetPlanner.Data.Models
 {
     public abstract class BaseModel<Tkey>
     {
