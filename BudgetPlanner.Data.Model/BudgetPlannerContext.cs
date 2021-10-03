@@ -10,6 +10,5 @@ namespace BudgetPlanner.Data.Models
         public BudgetPlannerContext(DbContextOptions<BudgetPlannerContext> options) : base(options) { }
 
         public DbSet<Account> Accounts;
-        public 
     }
 }
