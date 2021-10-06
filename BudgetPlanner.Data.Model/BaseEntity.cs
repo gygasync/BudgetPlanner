@@ -5,6 +5,10 @@ using System.Text;
 
 namespace BudgetPlanner.Data.Models
 {
+    /// <summary>
+    /// Base Entity that other entities should inherit. It is not used by itself.
+    /// </summary>
+    /// <typeparam name="Tkey">Primary key type</typeparam>
     public abstract class BaseEntity<Tkey>
     {
         [Key]
