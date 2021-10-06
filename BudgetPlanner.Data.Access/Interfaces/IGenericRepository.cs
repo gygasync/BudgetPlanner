@@ -11,8 +11,8 @@ namespace BudgetPlanner.Data.Access.Interfaces
     {
         IQueryable<T> FindAll();
         IQueryable<T> FindAllByCondition(Expression<Func<T, bool>> expression);
-        void Create(T entity);
+        void Add(T entity);
         void Update(T entity);
-        void Delete(T entity);
+        void Remove(T entity);
     }
 }
