@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BudgetPlanner.Data.Models
 {
-    public class Rule: BaseEntity<long>
+    public class Rule: BaseEntity
     {
         public string Name { get; set; }
         public virtual ICollection<Account> Parameters { get; set; }

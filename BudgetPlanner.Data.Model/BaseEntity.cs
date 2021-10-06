@@ -8,11 +8,10 @@ namespace BudgetPlanner.Data.Models
     /// <summary>
     /// Base Entity that other entities should inherit. It is not used by itself.
     /// </summary>
-    /// <typeparam name="Tkey">Primary key type</typeparam>
-    public abstract class BaseEntity<Tkey>
+    public abstract class BaseEntity
     {
         [Key]
-        public Tkey Id { get; set; }
+        public long Id { get; set; }
         [Required]
         public Guid Guid { get; set; }
         [Required]
