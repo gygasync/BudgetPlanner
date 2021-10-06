@@ -2,7 +2,7 @@
 
 namespace BudgetPlanner.Data.Access
 {
-    public class Class1
+    public class UnitOfWork
     {
     }
 }
