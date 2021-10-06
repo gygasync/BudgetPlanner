@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BudgetPlanner.Data.Models
 {
-    public class Trigger: BaseModel<long>
+    public class Trigger: BaseEntity<long>
     {
         public string Name { get; set; }
         public string Action { get; set; }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BudgetPlanner.Data.Models
 {
-    public class Stream: BaseModel<long>
+    public class Stream: BaseEntity<long>
     {
         public string Name { get; set; }
         public virtual Account Account { get; set; }
